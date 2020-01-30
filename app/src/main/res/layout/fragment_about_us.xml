@@ -1,0 +1,45 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:background="#ffffff"
+    >
+
+    <ImageView
+        android:id="@+id/proPic"
+        android:layout_width="200dp"
+        android:layout_height="261dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/khemraj" />
+
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/proPic"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="5dp"
+        android:text="Khemraj Bawaskar"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#360951"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtName"
+        android:layout_centerHorizontal="true"
+        android:text="Echo: Version 1.0\nAll Rights Reserved \nBkhemraj"
+        android:textAlignment="center"
+        android:textSize="11sp"
+        android:textStyle="normal" />
+
+
+
+</RelativeLayout>
